@@ -9,6 +9,9 @@
   },
   "keywords": [],
   "license": "Apache 2.0",
+  "dependencies": {
+    "@aibrow/extension": "^1.1.4"
+  },
   "devDependencies": {
     "@mozilla/readability": "0.5.0",
     "@rollup/plugin-commonjs": "28.0.1",

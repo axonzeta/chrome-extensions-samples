@@ -1,5 +1,7 @@
 import DOMPurify from 'dompurify';
 import { marked } from 'marked';
+import AI from '@aibrow/extension';
+chrome.aiOriginTrial = AI;
 
 const inputPrompt = document.body.querySelector('#input-prompt');
 const buttonPrompt = document.body.querySelector('#button-prompt');
